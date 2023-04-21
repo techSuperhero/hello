@@ -1,0 +1,422 @@
+article,
+footer,
+header {
+  display: block;
+}
+a {
+  background-color: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+@media print {
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  h2 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2 {
+    page-break-after: avoid;
+  }
+}
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+a {
+  color: #1db954;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #1ed760;
+  text-decoration: none;
+}
+a:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+h1,
+h2 {
+  font-family: inherit;
+  font-weight: 900;
+  line-height: 1.1;
+  color: inherit;
+}
+h1,
+h2 {
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+h1 {
+  font-size: 32px;
+}
+h2 {
+  font-size: 28px;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+h1,
+h2 {
+  margin: 0.5em 0 0.25em;
+}
+h1 {
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+@media (min-width: 992px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+h2 {
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: -0.015em;
+  line-height: 1.3;
+}
+@media (min-width: 768px) {
+  h2 {
+    font-size: 32px;
+  }
+}
+a:active {
+  color: #1db954;
+}
+/*! CSS Used from: Embedded */
+.RyWnZ {
+  font-family: Circular, Helvetica, Arial, sans-serif;
+  margin: 0 auto;
+  padding: 35px 15px;
+  max-width: 100%;
+  box-sizing: border-box;
+  color: #000;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .RyWnZ {
+    width: 750px;
+    padding: 75px 15px;
+  }
+}
+@media (min-width: 992px) {
+  .RyWnZ {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .RyWnZ {
+    width: 1170px;
+  }
+}
+.gZRAav {
+  background-color: transparent;
+  border: 0;
+  border-radius: 500px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  -webkit-letter-spacing: 2px;
+  -moz-letter-spacing: 2px;
+  -ms-letter-spacing: 2px;
+  letter-spacing: 2px;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  -webkit-transition-duration: 33ms;
+  transition-duration: 33ms;
+  -webkit-transition-property: background-color, border-color, color, box-shadow,
+    filter, -webkit-transform;
+  -webkit-transition-property: background-color, border-color, color, box-shadow,
+    filter, transform;
+  transition-property: background-color, border-color, color, box-shadow, filter,
+    transform;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -webkit-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  padding: 17px 48px;
+  background-color: #1db954;
+  color: #ffffff;
+}
+.gZRAav:focus {
+  color: #eeeeee;
+  background-color: #1da64d;
+}
+.gZRAav:active,
+.gZRAav:active:hover {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  background-color: #14833b;
+  box-shadow: none;
+  color: #b3b3b3;
+}
+.gZRAav:focus {
+  outline: none;
+}
+.fclwSR {
+  -webkit-text-decoration: none !important;
+  text-decoration: none !important;
+  color: #ffffff !important;
+}
+.EgTxb {
+  -webkit-text-decoration: none !important;
+  text-decoration: none !important;
+  color: #000000 !important;
+  border: 2px solid #000000;
+  background-color: transparent;
+}
+.EgTxb:focus,
+.EgTxb:active:hover {
+  background-color: transparent;
+}
+.iovakI a {
+  color: #000;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+.iovakI > article {
+  font-family: Circular, Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  height: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 35px 15px;
+}
+@media (min-width: 1200px) {
+  .iovakI > article {
+    min-height: 70vh;
+  }
+}
+@media (min-width: 768px) {
+  .iovakI > article {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .iovakI > article {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .iovakI > article {
+    width: 1170px;
+  }
+}
+.biVOqy {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  .biVOqy {
+    margin-bottom: 30px;
+  }
+}
+.hXtGXC {
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+.ghGhdR {
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+  font-weight: 900;
+  max-width: 100%;
+  width: auto;
+  display: inline-block;
+  font-size: 48px;
+}
+@media (min-width: 768px) {
+  .ghGhdR {
+    font-size: 80px;
+  }
+}
+.bKzhos {
+  line-height: 1.5;
+  margin: 15px 0;
+  padding: 0;
+  margin-bottom: 0;
+  width: 100%;
+  max-width: 100%;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 24px;
+}
+@media (min-width: 480px) {
+  .bKzhos {
+    margin: 30px 0;
+  }
+}
+@media (min-width: 768px) {
+  .bKzhos {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+}
+.himZKo {
+  font-size: 12px;
+  width: 100%;
+}
+.ctZjfV {
+  display: inline-block;
+}
+@media (min-width: 992px) {
+  .ctZjfV {
+    max-width: 630px;
+  }
+}
+.kyojiS {
+  margin: 10px 0;
+}
+@media (min-width: 768px) {
+  .kyojiS {
+    margin: 30px 0;
+  }
+}
+.fOXUpi {
+  display: block;
+  margin: 20px 0;
+}
+.fOXUpi > div:not(:last-child) {
+  margin-bottom: 10px;
+}
+.fOXUpi a {
+  width: 100%;
+  box-sizing: border-box;
+}
+@media (min-width: 768px) {
+  .fOXUpi {
+    margin: 35px 0 0;
+  }
+  .fOXUpi a {
+    width: auto;
+  }
+  .fOXUpi > div {
+    display: inline-block;
+  }
+  .fOXUpi > div:not(:last-child) {
+    margin-right: 8px;
+    margin-bottom: 0;
+  }
+}
+.dSEOxJ {
+  padding: 0;
+  margin: 20px 0;
+}
+@media (min-width: 768px) {
+  .dSEOxJ {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+.bSwWwA > section:first-child article:first-child {
+  padding-top: 80px;
+}
+/*! CSS Used fontfaces */
+@font-face {
+  font-family: Circular;
+  src: url("https://sp-bootstrap.spotifycdn.com/8.12.5/fonts/circular-light.woff2")
+      format("woff2"),
+    url("https://sp-bootstrap.spotifycdn.com/8.12.5/fonts/circular-light.woff")
+      format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: Circular;
+  src: url("https://sp-bootstrap.spotifycdn.com/8.12.5/fonts/circular-book.woff2")
+      format("woff2"),
+    url("https://sp-bootstrap.spotifycdn.com/8.12.5/fonts/circular-book.woff")
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Circular;
+  src: url("https://sp-bootstrap.spotifycdn.com/8.12.5/fonts/circular-medium.woff2")
+      format("woff2"),
+    url("https://sp-bootstrap.spotifycdn.com/8.12.5/fonts/circular-medium.woff")
+      format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: Circular;
+  src: url("https://sp-bootstrap.spotifycdn.com/8.12.5/fonts/circular-bold.woff2")
+      format("woff2"),
+    url("https://sp-bootstrap.spotifycdn.com/8.12.5/fonts/circular-bold.woff")
+      format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: Circular;
+  src: url("https://sp-bootstrap.spotifycdn.com/8.12.5/fonts/circular-black.woff2")
+      format("woff2"),
+    url("https://sp-bootstrap.spotifycdn.com/8.12.5/fonts/circular-black.woff")
+      format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
