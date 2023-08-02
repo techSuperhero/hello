@@ -30,10 +30,13 @@ require_once './route.php';
     <?php
     navbar();
     ?>
-      <!-- <div id="pricing">
-      </div> -->
-         <!-- <div class="container">
-         </div> -->
+      <div id="pricing">
+      </div>
+         <div class="container">
+            <h1 style="text-align: center;font-weight:800;">Student Records</h1><br><br>
+            <?php include './user.php';
+            UserTable(2)?>
+         </div>
 
     <script src="lib/js/jquery-3.3.1.min.js"></script>
     <script src="lib/js/popper.min.js"></script>

@@ -10,19 +10,19 @@ require_once './route.php';
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+<!--     
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 
     <link rel="stylesheet" href="lib/fonts/icomoon/style.css">
 
     <link rel="stylesheet" href="lib/css/owl.carousel.min.css">
 
-    <!-- Bootstrap CSS -->
+    Bootstrap CSS
     <link rel="stylesheet" href="lib/css/bootstrap.min.css">
     
-    <!-- Style -->
+    Style
     <link rel="stylesheet" href="lib/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet"> -->
 
     <title>Web Services</title>
   </head>
@@ -30,10 +30,13 @@ require_once './route.php';
     <?php
     navbar();
     ?>
-      <!-- <div id="pricing">
-      </div> -->
-         <!-- <div class="container">
-         </div> -->
+      <div id="pricing">
+      </div>
+         <div class="container">
+            <h1 style="text-align: center;font-weight:800;">Student Records</h1><br><br>
+            <?php include './user.php';
+            UserTable(3)?>
+         </div>
 
     <script src="lib/js/jquery-3.3.1.min.js"></script>
     <script src="lib/js/popper.min.js"></script>
